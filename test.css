@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'Journal Sans';
+    src: local('Journal Sans Regular'), local('Journal-Sans-Regular'), url('JournalSans.woff2') format('woff2'), url('JournalSans.woff') format('woff'), url('JournalSans.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-image: url(image/image\ -\ main.png);
+    background-size: 100%;
+}
+
+nav {
+    background-color: rgb(56, 55, 55, 0.9);
+    display: flex;
+    justify-content: center;
+}
+
+nav>a {
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #C4C4C4;
+    text-decoration: none;
+    padding: 3% 4% 3% 0;
+}
+
+.play {
+    display: flex;
+    justify-content: center;
+    padding-top: 23%;
+}
+
+.arrow {
+    display: flex;
+    justify-content: center;
+    padding-top: 15%;
+}
+
+.text1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5% 0 5% 0;
+}
+
+.text1>h3 {
+    padding-right: 40%;
+    font-family: 'Journal Sans';
+    font-weight: 100;
+    font-size: 32px;
+    line-height: 30px;
+    color: #686868;
+}
+
+.text1>h1 {
+    margin-top: -1%;
+    padding-right: 15%;
+    font-family: 'Journal Sans';
+    font-size: 60px;
+    font-weight: 100;
+    line-height: 56px;
+    color: #4B4A4A;
+}
+
+.text1>p {
+    margin-top: -1%;
+    padding-right: 8%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    color: #616161;
+}
+
+.content1 {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.content1>img {
+    display: block;
+    padding: 1.5%;
+}
+
+.text2 {
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    color: #616161;
+}
